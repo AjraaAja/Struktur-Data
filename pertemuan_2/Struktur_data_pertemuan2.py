@@ -57,7 +57,7 @@ print(len(numbers))
 print(sys.getsizeof(numbers))
 print(numbers)
 
-backup_numbers:list[float] =
+backup_numbers:list[float] 
 numbers.copy()
 print(backup_numbers)
 print(sys.getsizeof(backup_numbers))
