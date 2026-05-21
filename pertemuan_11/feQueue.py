@@ -11,7 +11,7 @@ st.title("Visualisasi Antrian di RS dengan GTTS dan Streamlit")
 
 # Inisialisasi session Antrian
 if 'queue2' not in st.session_state:
-    st.session_state.queue2 = queue2.Queue()
+    st.session_state.queue2 = queue2.queue()
     st.session_state.counter = 1
 
 # Halaman Depan
